@@ -1,7 +1,4 @@
 <IfModule mod_rewrite.c>
     RewriteEngine on
-    RewriteCond %{HTTP_HOST} ^bloggi.pw$ [NC]
     RewriteRule ^(.*)$ public/$1 [L]
-    RewriteCond %{HTTP_HOST} ^wbjs.xyz$ [NC]
-    RewriteRule ^(.*)$ /sites/wbjs/$1 [L]
 </IfModule>
