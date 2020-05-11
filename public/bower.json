@@ -1,0 +1,23 @@
+{
+  "name": "public",
+  "authors": [
+    "wbjs"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery-confirm2": "craftpip/jquery-confirm#^3.3.4",
+    "jquery": "^3.5.1"
+  }
+}
